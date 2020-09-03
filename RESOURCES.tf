@@ -13,7 +13,7 @@ resource "aws_rds_cluster" "default" {
   preferred_backup_window = "07:00-09:00"
 }
 
-resource "aws_s3_bucket" "chp19" {
+resource "aws_s3_bucket" "bucketTrainingTerraform" {
   bucket = "my-tf-test-bucket"
   acl    = "private"
   versioning {
@@ -21,7 +21,7 @@ resource "aws_s3_bucket" "chp19" {
   }
 
   tags = {
-    Name        = "My bucket"
+    Name        = "bucketTrainingTerraform"
     Environment = "Dev"
   }
 }
