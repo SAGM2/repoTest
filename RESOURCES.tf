@@ -14,7 +14,7 @@ resource "aws_rds_cluster" "default" {
 }
 
 resource "aws_s3_bucket" "saidgarciamorales" {
-  bucket = "my-tf-test-bucket"
+  bucket = "saidgarciamoralest"
   acl    = "private"
   versioning {
     enabled = true
