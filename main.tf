@@ -8,7 +8,7 @@ resource "aws_rds_cluster" "default" {
   engine_version          = "5.7.mysql_aurora.2.03.2"
   database_name           = "mydb"
   master_username         = "foo"
-  master_password         = "bar"
+  master_password         = "Ssaidgarciaa97"
   backup_retention_period = 5
   preferred_backup_window = "07:00-09:00"
 }
